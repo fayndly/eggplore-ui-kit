@@ -12,11 +12,11 @@ const links = ref([
   { name: 'Typography', href: '/typography' },
   { name: 'Buttons', href: '/buttons' },
   { name: 'Checkboxes', href: '/checkboxes' }
-  // { name: "Radiobutton", href: "/radiobutton" },
+  // { name: "Radiobuttons", href: "/radiobuttons" },
   // { name: "Progress", href: "/progress" },
-  // { name: "Input", href: "/input" },
+  // { name: "Inputs", href: "/inputs" },
   // { name: "Tabs", href: "/tabs" },
-  // { name: "Table", href: "/table" },
+  // { name: "Tables", href: "/tables" },
 ])
 </script>
 
@@ -36,6 +36,7 @@ const links = ref([
   background: #fff;
   position: fixed;
   width: 250px;
+  z-index: 2;
   padding: 20px;
   transition: 0.2s;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);

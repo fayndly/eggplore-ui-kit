@@ -1,33 +1,14 @@
 <script setup lang="ts">
-defineProps({
-  label: {
-    type: String,
-    default: 'Button'
-  },
-  color: {
-    type: String,
-    default: 'primary'
-  },
-  disabled: {
-    type: Boolean,
-    required: false
-  },
-  rounded: {
-    type: Boolean,
-    required: false
-  },
-  outlined: {
-    type: Boolean,
-    required: false
-  },
-  icon: {
-    type: String,
-    required: false
-  },
-  size: {
-    type: String,
-    default: 'normal'
-  }
+import type { IButton } from '@/utils/types/buttons'
+
+withDefaults(defineProps<IButton>(), {
+  label: 'Button',
+  color: 'primary',
+  // disabled: false,
+  // rounded: false,
+  // outlined: false,
+  // icon: '',
+  size: 'normal'
 })
 
 const emit = defineEmits(['click'])

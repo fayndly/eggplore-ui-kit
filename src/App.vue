@@ -28,6 +28,7 @@ const toggleMenu = () => {
   max-width: 1400px;
   margin-left: 250px;
   padding: 30px;
+  padding-top: calc(30px + 62px);
   transition: 0.2s;
   &_full {
     margin-left: 0;
@@ -38,10 +39,10 @@ const toggleMenu = () => {
   position: fixed;
   left: 0;
   width: 15px;
-  background: var(--primary);
+  background: $color-primary;
   height: 100%;
   top: 62px;
-  z-index: 1;
+  z-index: 3;
   cursor: pointer;
   color: #fff;
   display: flex;

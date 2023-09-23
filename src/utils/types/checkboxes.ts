@@ -1,4 +1,4 @@
-interface ICheckbox {
+export interface ICheckbox {
   name?: string
   id?: string
   value?: string
@@ -9,15 +9,13 @@ interface ICheckbox {
   type?: string
 }
 
-interface IOptionsCheckboxGroup {
+export interface IOptionsCheckboxGroup {
   value: Array<string>
   name: string
   options: Array<ICheckbox>
 }
 
-interface IUpdateCheckboxGroup {
+export interface IUpdateCheckboxGroup {
   optionId: string
   checked: boolean
 }
-
-export type { ICheckbox, IOptionsCheckboxGroup, IUpdateCheckboxGroup }
