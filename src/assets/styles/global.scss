@@ -1,0 +1,59 @@
+@import './variables';
+@import './mixins';
+
+:root {
+  --primary: #6979f8;
+  --primary-hover: #a5affb;
+  --second: #be52f2;
+  --second-hover: #dba5f5;
+  --success: #00c48c;
+  --success-hover: #7ddfc3;
+  --info: #0084f4;
+  --info-hover: #66b5f8;
+  --warning: #ffa26b;
+  --warning-hover: #ffc7a6;
+  --danger: #ff647c;
+  --danger-hover: #fdafbb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+.heading {
+  &-1 {
+    font-size: 34px;
+    margin: 20px 0px;
+    font-weight: 300;
+  }
+  &-2 {
+    font-size: 22px;
+    margin: 20px 0px;
+    font-weight: 300;
+  }
+  &-3 {
+    font-size: 17px;
+    margin: 20px 0px;
+    font-weight: 300;
+  }
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  &_block {
+    display: block;
+  }
+}
