@@ -10,19 +10,18 @@ defineProps({
 
 const links = ref([
   { name: 'Typography', href: '/typography' },
-  { name: 'Button', href: '/buttons' }
-  //   { name: "Checkbox", href: "/checkbox" },
-  //   { name: "Radiobutton", href: "/radiobutton" },
-  //   { name: "Progress", href: "/progress" },
-  //   { name: "Input", href: "/input" },
-  //   { name: "Tabs", href: "/tabs" },
-  //   { name: "Table", href: "/table" },
+  { name: 'Buttons', href: '/buttons' },
+  { name: 'Checkboxes', href: '/checkboxes' }
+  // { name: "Radiobutton", href: "/radiobutton" },
+  // { name: "Progress", href: "/progress" },
+  // { name: "Input", href: "/input" },
+  // { name: "Tabs", href: "/tabs" },
+  // { name: "Table", href: "/table" },
 ])
 </script>
 
 <template>
   <div :class="['sidebar', { sidebar_isopen: openSidebar }]">
-    <!-- <div class="sidebar"> -->
     <router-link class="sidebar__link" v-for="link in links" :key="link.name" :to="link.href">{{
       link.name
     }}</router-link>

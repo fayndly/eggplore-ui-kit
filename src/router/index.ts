@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { PageMain } from '@/pages/Main'
 import { PageButtons } from '@/pages/Buttons'
 import { PageTypography } from '@/pages/Typography'
+import { PageCheckboxes } from '@/pages/Checkboxes'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -15,6 +16,11 @@ const router = createRouter({
       path: '/buttons',
       name: 'buttons',
       component: PageButtons
+    },
+    {
+      path: '/checkboxes',
+      name: 'checkboxes',
+      component: PageCheckboxes
     },
     {
       path: '/typography',
