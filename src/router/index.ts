@@ -7,6 +7,7 @@ import { PageRadioButtons } from '@/pages/RadioButtons'
 import { PageProgress } from '@/pages/Progress'
 import { PageInputs } from '@/pages/Inputs'
 import { PageTabs } from '@/pages/Tabs'
+import { PageTables } from '@/pages/Tables'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -50,6 +51,11 @@ const router = createRouter({
       path: '/tabs',
       name: 'tabs',
       component: PageTabs
+    },
+    {
+      path: '/tables',
+      name: 'tables',
+      component: PageTables
     }
   ]
 })

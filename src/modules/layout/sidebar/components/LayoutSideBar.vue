@@ -15,8 +15,8 @@ const links = ref([
   { name: 'Radiobuttons', href: '/radio-buttons' },
   { name: 'Progress', href: '/progress' },
   { name: 'Inputs', href: '/inputs' },
-  { name: 'Tabs', href: '/tabs' }
-  // { name: 'Tables', href: '/tables' }
+  { name: 'Tabs', href: '/tabs' },
+  { name: 'Tables', href: '/tables' }
 ])
 </script>
 
