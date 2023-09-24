@@ -18,6 +18,8 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@vue/runtime-dom": "^3.3.4",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
     "scss": "^0.2.4",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
