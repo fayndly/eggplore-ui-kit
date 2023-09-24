@@ -14,8 +14,8 @@ const links = ref([
   { name: 'Checkboxes', href: '/checkboxes' },
   { name: 'Radiobuttons', href: '/radio-buttons' },
   { name: 'Progress', href: '/progress' },
-  { name: 'Inputs', href: '/inputs' }
-  // { name: 'Tabs', href: '/tabs' },
+  { name: 'Inputs', href: '/inputs' },
+  { name: 'Tabs', href: '/tabs' }
   // { name: 'Tables', href: '/tables' }
 ])
 </script>

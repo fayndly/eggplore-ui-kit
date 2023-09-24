@@ -22,7 +22,7 @@ withDefaults(defineProps<IProgressCircle>(), {
       />
       <circle
         class="progress-circle-line"
-        :style="[{ 'stroke-dashoffset': `calc(100 - ${percent})` }]"
+        :style="{ 'stroke-dashoffset': `calc(100 - ${percent})` }"
         cx="60"
         cy="60"
         r="54"
