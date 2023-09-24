@@ -3,6 +3,7 @@ import { PageMain } from '@/pages/Main'
 import { PageButtons } from '@/pages/Buttons'
 import { PageTypography } from '@/pages/Typography'
 import { PageCheckboxes } from '@/pages/Checkboxes'
+import { PageRadioButtons } from '@/pages/RadioButtons'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/typography',
       name: 'typography',
       component: PageTypography
+    },
+    {
+      path: '/radio-buttons',
+      name: 'radiobuttons',
+      component: PageRadioButtons
     }
   ]
 })
