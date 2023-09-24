@@ -4,6 +4,7 @@ import { PageButtons } from '@/pages/Buttons'
 import { PageTypography } from '@/pages/Typography'
 import { PageCheckboxes } from '@/pages/Checkboxes'
 import { PageRadioButtons } from '@/pages/RadioButtons'
+import { PageProgress } from '@/pages/Progress'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/radio-buttons',
       name: 'radiobuttons',
       component: PageRadioButtons
+    },
+    {
+      path: '/progress',
+      name: 'progress',
+      component: PageProgress
     }
   ]
 })
