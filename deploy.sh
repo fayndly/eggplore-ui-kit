@@ -1,5 +1,5 @@
 #!/bin/bash
-source .env
+source ./.env
 
 set -e
 
@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:fayndly/VITE_REPO_NAME.git master:gh-pages
+git push -f git@github.com:$VITE_REPO_PROFILE_USERNAME/$VITE_REPO_NAME.git $VITE_DEPLOY_FROM_BRANCH:$VITE_DEPLOY_TO_BRANCH
 
 cd -
